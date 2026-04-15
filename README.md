@@ -1,6 +1,13 @@
 # Binance Futures Testnet Trading Bot
 
 A clean, structured Python CLI application for placing orders on the **Binance Futures Testnet (USDT-M)**.
+##  Technical Highlights
+
+- *Financial Precision:* Uses the Decimal library for all quantity and price calculations to avoid floating-point errors common in financial applications.
+- *Security-First:* Implements *HMAC SHA256* signature authentication. Credentials are never hardcoded and are managed via system environment variables.
+- *Modular Architecture:* Follows a clear separation of concerns with dedicated layers for API communication, business logic (orders), and input validation.
+- *Robust Validation:* Includes a comprehensive validation layer to catch input errors (invalid symbols, negative quantities, etc.) before they hit the API.
+- *Advanced Logging:* Dual-stream logging to console (clean info) and local files (detailed debug data for troubleshooting).
 
 ---
 
