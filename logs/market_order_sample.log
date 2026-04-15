@@ -1,0 +1,8 @@
+2025-04-15 10:12:03 | DEBUG    | client | BinanceClient initialised (testnet=https://testnet.binancefuture.com)
+2025-04-15 10:12:03 | INFO     | cli | CLI order request | symbol=BTCUSDT type=MARKET side=BUY qty=0.001 price=None stop=None
+2025-04-15 10:12:03 | DEBUG    | orders | Validated order inputs: {'symbol': 'BTCUSDT', 'order_type': 'MARKET', 'side': 'BUY', 'quantity': '0.001'}
+2025-04-15 10:12:03 | INFO     | client | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001 price=N/A
+2025-04-15 10:12:03 | DEBUG    | client | POST https://testnet.binancefuture.com/fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1744711923412, 'recvWindow': 5000}
+2025-04-15 10:12:03 | DEBUG    | client | Response 200: {"orderId":4751830293,"symbol":"BTCUSDT","status":"FILLED","clientOrderId":"x-abc123","price":"0","avgPrice":"83421.50000","origQty":"0.001","executedQty":"0.001","cumQty":"0.001","cumQuote":"83.42150","timeInForce":"GTC","type":"MARKET","side":"BUY"}
+2025-04-15 10:12:03 | INFO     | client | Order placed successfully | orderId=4751830293 status=FILLED
+2025-04-15 10:12:03 | INFO     | cli | Order response: {"orderId": 4751830293, "symbol": "BTCUSDT", "status": "FILLED", "clientOrderId": "x-abc123", "price": "0", "avgPrice": "83421.50000", "origQty": "0.001", "executedQty": "0.001", "cumQty": "0.001", "cumQuote": "83.42150", "timeInForce": "GTC", "type": "MARKET", "side": "BUY"}

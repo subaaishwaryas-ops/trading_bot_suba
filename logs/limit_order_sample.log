@@ -1,0 +1,8 @@
+2025-04-15 10:15:44 | DEBUG    | client | BinanceClient initialised (testnet=https://testnet.binancefuture.com)
+2025-04-15 10:15:44 | INFO     | cli | CLI order request | symbol=BTCUSDT type=LIMIT side=SELL qty=0.001 price=95000 stop=None
+2025-04-15 10:15:44 | DEBUG    | orders | Validated order inputs: {'symbol': 'BTCUSDT', 'order_type': 'LIMIT', 'side': 'SELL', 'quantity': '0.001', 'price': '95000'}
+2025-04-15 10:15:44 | INFO     | client | Placing SELL LIMIT order | symbol=BTCUSDT qty=0.001 price=95000
+2025-04-15 10:15:44 | DEBUG    | client | POST https://testnet.binancefuture.com/fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '95000', 'timeInForce': 'GTC', 'timestamp': 1744712144887, 'recvWindow': 5000}
+2025-04-15 10:15:44 | DEBUG    | client | Response 200: {"orderId":4751830401,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"x-def456","price":"95000","avgPrice":"0.00000","origQty":"0.001","executedQty":"0.000","cumQty":"0.000","cumQuote":"0.00000","timeInForce":"GTC","type":"LIMIT","side":"SELL"}
+2025-04-15 10:15:44 | INFO     | client | Order placed successfully | orderId=4751830401 status=NEW
+2025-04-15 10:15:44 | INFO     | cli | Order response: {"orderId": 4751830401, "symbol": "BTCUSDT", "status": "NEW", "clientOrderId": "x-def456", "price": "95000", "avgPrice": "0.00000", "origQty": "0.001", "executedQty": "0.000", "cumQty": "0.000", "cumQuote": "0.00000", "timeInForce": "GTC", "type": "LIMIT", "side": "SELL"}
